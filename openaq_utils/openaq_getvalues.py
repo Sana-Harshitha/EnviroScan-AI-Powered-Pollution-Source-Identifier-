@@ -59,4 +59,6 @@ def get_values(lat, lon, required_params=None, radius=5000):
         if mvals:
             row[param] = mvals[0].get('value')
 
+
+
     return row
